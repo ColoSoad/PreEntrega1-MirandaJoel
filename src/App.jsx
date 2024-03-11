@@ -8,8 +8,14 @@ function App() {
 
     return (
         <>
-            <NavBar />
-            <ItemListContainer greetings="Hello how do you do?" />
+            <header>
+                <NavBar />
+            </header>
+            <body>
+                <main>
+                    <ItemListContainer greetings="Hello how do you do?" />
+                </main>
+            </body>
         </>
     );
 }
