@@ -25,8 +25,6 @@ html {
     width: 70px;
     border-radius: 50px;
     padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
     background-image: url(./assets/img/Klothes.jpg);
     background-position: left;
     background-size: cover;
@@ -41,13 +39,14 @@ ul {
     list-style: none;
 }
 
-header {
+.navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 85px;
-    padding: 5px 0 0 0;
+    padding: 0 0 0 0;
+    /* width: 100%; */
     cursor: pointer;
+    position: fixed;
 }
 
 .nav-links li {
@@ -63,7 +62,8 @@ header {
 
 .nav-links {
     color: rgb(249, 91, 0);
-    font-size: 700;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
 }
 
 .nav-links:hover {
@@ -71,17 +71,26 @@ header {
     display: inline-block;
 }
 
+.link1 {
+    padding: 0 0 0 85px;
+}
+
+.link4 {
+    padding: 0 40px 0 0;
+}
+
 .numeroHardcodeado {
-    color: rgb(249, 0, 0);
+    color: rgb(255, 14, 14);
 }
 
 .numeroHardcodeado:hover {
     color: rgb(202, 2, 2);
 }
 
-.klothes {
+.brand {
     color: rgb(249, 91, 0);
     font-weight: 800;
+    text-shadow: 1px 1px 2px black;
 }
 
 .greetings {
@@ -89,14 +98,22 @@ header {
     color: rgb(249, 91, 0);
     border: 6px solid #000;
     border-color: rgb(249, 91, 0);
+    text-shadow: 1px 1px 2px black;
 }
 
 .cart {
-    height: 70px;
+    height: 50px;
     transition: all 0.3s;
     padding: 0 5px 0 0;
+    text-shadow: 1px 1px 2px black;
 }
 
 .cart:hover {
     transform: scale(1.2);
+}
+
+.container {
+    backdrop-filter: blur(5px);
+    padding: 15px;
+    box-shadow: 1px 1px 2px black;
 }
