@@ -2,7 +2,10 @@ export const CartWidget = () => {
     return (
         <>
             <a href="#">
-                <img src="\src\assets\img\cartshop.png" alt="Imagen Ecommerce" className="cart" />8
+                <div className="cart">
+                    <img src="\src\assets\img\cartshop.png" alt="Imagen Ecommerce" className="cart" />
+                    <span className="numeroHardcodeado">0</span>
+                </div>
             </a>
         </>
     );

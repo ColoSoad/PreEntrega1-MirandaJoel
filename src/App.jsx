@@ -12,9 +12,7 @@ function App() {
                 <NavBar />
             </header>
             <body>
-                <main>
-                    <ItemListContainer greetings="Hello how do you do?" />
-                </main>
+                <ItemListContainer greetings="Hello how do you do?" />
             </body>
         </>
     );

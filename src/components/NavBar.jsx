@@ -8,22 +8,22 @@ export const NavBar = () => (
         <nav>
             <ul className="nav-links">
                 <li className="nav-links">
-                    <a href="#" className="nav-links">
+                    <a href="#" className="nav-links link">
                         Inicio
                     </a>
                 </li>
                 <li>
-                    <a href="#" className="nav-links">
+                    <a href="#" className="nav-links link">
                         E-commerce
                     </a>
                 </li>
                 <li>
-                    <a href="#" className="nav-links">
+                    <a href="#" className="nav-links link">
                         Sobre Mí
                     </a>
                 </li>
                 <li>
-                    <a href="#" className="nav-links">
+                    <a href="#" className="nav-links link">
                         Contacto
                     </a>
                 </li>

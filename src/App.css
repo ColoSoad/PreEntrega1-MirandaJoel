@@ -46,7 +46,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 85px;
-    padding: 5px 10%;
+    padding: 5px 0 0 0;
     cursor: pointer;
 }
 
@@ -71,6 +71,14 @@ header {
     display: inline-block;
 }
 
+.numeroHardcodeado {
+    color: rgb(249, 0, 0);
+}
+
+.numeroHardcodeado:hover {
+    color: rgb(202, 2, 2);
+}
+
 .klothes {
     color: rgb(249, 91, 0);
     font-weight: 800;
@@ -86,31 +94,9 @@ header {
 .cart {
     height: 70px;
     transition: all 0.3s;
+    padding: 0 5px 0 0;
 }
 
 .cart:hover {
     transform: scale(1.2);
 }
-/* 
-@keyframes logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    a:nth-of-type(2) .logo {
-        animation: logo-spin infinite 20s linear;
-    }
-}
-
-.card {
-    padding: 2em;
-}
-
-.read-the-docs {
-    color: #888;
-} */
